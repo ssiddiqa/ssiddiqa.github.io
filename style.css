@@ -1,0 +1,87 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-container{
+    background-color: #CACACA;
+} 
+.banner-column{
+    background-color: #8D8D8D;
+}
+.navbar-container{
+    background-color: #262B37;
+}
+.about-container{
+    background-color: #00BCD4;
+}
+.education-container{
+    background-color: #EEEEEE;
+}
+.bg-redtype{
+    background-color: #FB857F;
+}
+.redtype{
+    color: #FB857F;
+}
+.circle{
+    background-color: #FB857F;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.project-container{
+    background-color: #2BB3DD;
+}
+.project-image{
+	padding: 2%; 
+	position: relative;
+}
+.img-fluid{
+    border-radius: 4px;
+}
+.img-fluid:hover{
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgba(34 60 80 0.16);
+}
+.project-image:hover > h4 {
+	visibility: visible;
+}
+.project-image > h4 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	visibility: hidden;
+	z-index: 2;
+}
+.about-gallery{
+    background-color: #f1f1f1;
+}
+.carousel-item{
+    padding: 20px 60px;
+}
+.form-container{
+    background-color: #474D5D;
+}
+.form-control{
+    background-color: #474D5D;
+}
+.btn:hover{
+    color: black!important;
+}
+.footer{
+    background-color: #2BB3DD;
+}
+.circle-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #2BB3DD;
+}
+.circle-1:hover{
+     background-color: #474D5D;
+}
